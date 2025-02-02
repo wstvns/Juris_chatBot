@@ -10,8 +10,8 @@ from telegram_bot import TelegramLegalChatbot
 
 def main():
     # Configurações
-    BUCKET_NAME = 'legal-chatbot-documentos-91n2fcra' 
-    TELEGRAM_TOKEN = "7794143543:AAGsrhwgU-xKkGWwCjMLk6D6JIwPMDEL7OQ"  # meu token hardcodado
+    BUCKET_NAME = 'BUCKET_NAME'
+    TELEGRAM_TOKEN = "TELEGRAM_TOKEN"
     LOCAL_DATASET_PATH = './dataset/documentos_juridicos'
 
     # verificad se o token do telegram foi configurado
