@@ -14,6 +14,11 @@ class TelegramLegalChatbot:
                 message, 
                 "Bem-vindo ao Zakbot! Como posso ajudar?"
             )
+        @self.bot.message_handler(commands=['help'])
+        def send_help(message):
+            self.bot.reply_to(
+                message,
+                "Comandos disponíveis: /start, /help, /status")
         
         @self.bot.message_handler(func=lambda msg: True)
         def handle_message(message):
