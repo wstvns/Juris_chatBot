@@ -1,5 +1,3 @@
-# EM DESENVOLVIMENTO
-
 # ChatBot Fiscal
 
 O Chat Bot Fiscal é um projeto que utiliza tecnologias de processamento de linguagem natural (NLP) e infraestrutura em nuvem para fornecer respostas a perguntas jurídicas com base em documentos armazenados em um bucket S3. O chatbot é acessível via Telegram e utiliza um motor de Retrieval-Augmented Generation (RAG) para gerar respostas precisas e contextualizadas.
